@@ -202,7 +202,7 @@ if(isset($work_list[date('Y-m-d',strtotime($yyyymm.'-'.$i))])){
       <div class="modal-body">
       <div class="container">
       <div class="alert alert-primary" role="alert">
-      <?= date('n').'/'.time_format_dw(date('Y-m-d')) ?></span>
+      <?= date('n',strtotime($yyyymm))?>/<span id="modal_day"><?=time_format_dw(date('Y-m-d')) ?></span>
 </div>
   <div class="row">
     <div class="col-sm">
