@@ -7,18 +7,29 @@ DBの管理はPHPが相性いいと言われてたので色んな動画やサイ
 # テーブル構成
 
 User
+
 ・ id
+
 ・ user_no
+
 ・ name
+
 ・ password
+
 ・ auth_type
 
 work
+
 ・ id
+
 ・ user_id
+
 ・ date
+
 ・ start_time
+
 ・ end_time
+
 ・ break_time
 
 # 画面構成
